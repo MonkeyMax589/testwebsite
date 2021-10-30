@@ -267,7 +267,7 @@
 }
 
 .site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
-    background: var(--primary-color);
+    background: var(--primary-color2);
     width: 12px;
     height: 12px;
 }
