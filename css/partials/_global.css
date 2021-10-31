@@ -18,7 +18,7 @@
     border-radius: 4px;
 }
 
-.button .primary-button{
+.button.primary-button{
     background: var(--gradient-color);
     background-clip: padding-box;
     color: whitesmoke;
@@ -26,13 +26,13 @@
     box-shadow: var(--box-shadow);
 }
 
-.button .primary-button:hover{
+.button.primary-button:hover{
     background: whitesmoke;
     background-clip: padding-box;
     color: black;
 }
 
-.button .primary-button::after, .button .secondary-button::after{
+.button.primary-button::after, .button.secondary-button::after{
     position: absolute;
     top: -2px; left: -2px;
     bottom: -2px; right: -2px;
@@ -42,19 +42,19 @@
     border-radius: 4px;
 }
 
-.button .secondary-button{
+.button.secondary-button{
     background: white;
     background-clip: padding-box;
     transition: background 0.6s ease;
 }
 
-.button .secondary-button:hover{
+.button.secondary-button:hover{
     background:var(--gradient-color);
     color: whitesmoke;
     box-shadow: var(--box-shadow);
 }
 
-p .para{
+p.para{
     color: var(--text-color);
     font: normal 500 16px/25px var(--roboto);
 }
