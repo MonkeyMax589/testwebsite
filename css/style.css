@@ -1,11 +1,6 @@
 /* import fonts from fonts.css */
 @import url(./fonts.css);
 
-/* CSS variables */
-@import url(./_variables.css);
-
-/* import global styling */
-@import url(../css/_global.css);
 
 
 /* start navigation */
@@ -19,21 +14,21 @@
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    font: normal 500 15px/2px 'Roboto', cursive;
     text-transform: uppercase;
     padding: 1.7rem;
-    color: var(--title-color);
+    color: #141313;
 }
 
 .header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -86,7 +81,7 @@
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/60px var(--roboto);
+    font: normal bold 49px/60px 'Roboto', cursive;
     letter-spacing: 21px;
 }
 
@@ -109,7 +104,7 @@
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand{
-    border: 1px solid var(--border-color);
+    border: 1px solid #201f1f17;
     text-align: center;
     padding: 1.8rem 0rem;
     margin: 0.9rem 0rem;
@@ -124,7 +119,7 @@
 }
 
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
-    box-shadow: var(--box-shadow);
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
     transform: scale(1.1);
 }
 
@@ -161,13 +156,13 @@
 }
 
 .site-main .brand-area .experience-area .years-area .years{
-    font: normal bold 84px/40px var(--roboto);
-    color: var(--primary-color2);
+    font: normal bold 84px/40px 'Roboto', cursive;
+    color: #854fee;
     z-index: 2;
 }
 
 .site-main .brand-area .experience-area .years-area h2 > span{
-    font: normal 600 22px/30px var(--roboto);
+    font: normal 600 22px/30px 'Roboto', cursive;
 }
 
 .site-main .brand-area .experience-area .call-area{
@@ -198,7 +193,7 @@
 }
 
 .site-main > .services-area .services:hover{
-    box-shadow: var(--box-shadow);
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 }
 
 /* End Services Area */
@@ -213,7 +208,7 @@
 .site-main .project-area .button-group button{
     background: transparent;
     border: none;
-    font: normal 500 16px/130px var(--roboto);
+    font: normal 500 16px/130px 'Roboto', cursive;
     text-transform: uppercase;
 }
 
@@ -222,7 +217,7 @@
 }
 
 .site-main .project-area .grid .our-project > .title h4{
-    font: normal 700 25px/12px var(--roboto);
+    font: normal 700 25px/12px 'Roboto', cursive;
 }
 
 .site-main .project-area .grid .our-project .img a:hover img{
@@ -240,7 +235,7 @@
 
 .site-main .about-area .client{
     background: #ffffff10;
-    box-shadow: var(--box-shadow);
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
     margin: 3rem 0rem;
 }
 
@@ -253,7 +248,7 @@
 }
 
 .site-main .about-area .client .about-client h4{
-    font: normal 500 21px/20px var(--roboto);
+    font: normal 500 21px/20px 'Roboto', cursive;
 }
 
 .site-main .about-area .client .about-client p{
@@ -267,7 +262,7 @@
 }
 
 .site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
-    background: var(--primary-color2);
+    background: #854fee;
     width: 12px;
     height: 12px;
 }
@@ -285,7 +280,7 @@
 }
 
 .site-main .sub-us-area .sub .sub-title h4{
-    font: normal 700 30px/30px var(--roboto);
+    font: normal 700 30px/30px 'Roboto', cursive;
     color: whitesmoke;
 }
 
@@ -300,7 +295,7 @@
     border: 1px solid whitesmoke;
     background: transparent;
     color: white;
-    font: normal 500 17px/20px var(--roboto);
+    font: normal 500 17px/20px 'Roboto', cursive;
 }
 
 .site-main .sub-us-area .sub form .input-textbox input::placeholder{
@@ -324,17 +319,106 @@ footer.footer-area{
 }
 
 footer.footer-area .social h5{
-    font: normal 500 23px/30px var(--roboto);
+    font: normal 500 23px/30px 'Roboto', cursive;
 }
 
 footer.footer-area .social a > i{
     font-size: 22px;
     padding: 2rem;
-    color: var(--primary-color2);
+    color: #854fee;
 }
 
 footer.footer-area .social a:hover > i{
-    color: var(--primary-color);
+    color: #4458dc;
 }
 
 /* End Footer area */
+
+
+
+/* Global Classes imported */
+.title-text{
+    font: normal bold 50px/72px 'Roboto', cursive;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+/* Buttons */
+.button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px 'Roboto', cursive;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button{
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background 0.6s ease;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    content:' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background 0.6s ease;
+}
+
+.button.secondary-button:hover{
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    color: whitesmoke;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+p.para{
+    color: #777777;
+    font: normal 500 16px/25px 'Roboto', cursive;
+}
+
+.font-roboto{
+    font-family: 'Roboto', cursive;
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1{
+    font: normal bold 39px/40px 'Roboto', cursive;
+}
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    z-index: 999;
+    transition: background 0ms ease;
+}
+/* End of importing global classes */
