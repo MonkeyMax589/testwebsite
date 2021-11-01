@@ -1,6 +1,14 @@
 /* import fonts from fonts.css */
-@import url(./fonts.css);
+@import url(../fonts.css);
 
+<<<<<<< HEAD
+=======
+/* CSS variables */
+@import url(../_variables.css);
+
+/* import global styling */
+@import url(../css/_global.css);
+>>>>>>> 871d2b4b669da4621873f2bb8f03db769a0796a9
 
 
 /* start navigation */
