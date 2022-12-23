@@ -188,7 +188,8 @@ section{
 }
 
 .site-main > .services-area .services{
-    background: rgba(248, 252, 253, 0.973);
+/*     background: rgba(248, 252, 253, 0.973); */
+    background-color: #24252a;
     padding: 2rem 0;
     width: 16rem;
     margin: 5rem 0.5rem;
