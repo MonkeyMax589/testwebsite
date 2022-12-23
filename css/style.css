@@ -2,7 +2,9 @@
 @import url(../fonts.css);
 
 
-
+*{
+    background-color: #24252a;
+}
 
 /* start navigation */
 
